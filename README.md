@@ -1,4 +1,4 @@
-# 🍽️ Review-to-Roadmap: AI-Assisted Issue Prioritization for Zomato vs. Swiggy
+#  Review-to-Roadmap: AI-Assisted Issue Prioritization for Zomato vs. Swiggy
 
 **Stack:** Python | Pandas | Matplotlib | Claude (AI-Assisted Labeling)
 **Role Simulated:** Product Analyst — Customer Experience Intelligence
@@ -101,8 +101,8 @@ review-to-roadmap/
 ├── README.md
 ├── review_to_roadmap_analysis.ipynb
 ├── data/
-│   ├── zomato_scoped.csv   # last 18 months, as used in the analysis
-│   └── swiggy_scoped.csv   # last 18 months, as used in the analysis
+│   ├── zomato_dataset.csv   # last 18 months, as used in the analysis
+│   └── swiggy_dataset.csv   # last 18 months, as used in the analysis
 ├── outputs/
 │   ├── reviews_tagged.csv
 │   ├── priority_matrix_zomato.csv
@@ -150,4 +150,4 @@ Dataset: [Zomato & Swiggy Play Store Reviews — Kaggle](https://www.kaggle.com/
 ## 👤 Author
 
 **Tanishka Anand**
-Data Analyst | Python | AI-Assisted Analytics
+Data Analyst | AI-Assisted Analytics
