@@ -101,8 +101,8 @@ review-to-roadmap/
 ├── README.md
 ├── review_to_roadmap_analysis.ipynb
 ├── data/
-│   ├── zomato_scoped.csv   # last 18 months, as used in the analysis
-│   └── swiggy_scoped.csv   # last 18 months, as used in the analysis
+│   ├── zomato_dataset.csv   # last 18 months, as used in the analysis
+│   └── swiggy_dataset.csv   # last 18 months, as used in the analysis
 ├── outputs/
 │   ├── reviews_tagged.csv
 │   ├── priority_matrix_zomato.csv
