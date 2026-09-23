@@ -49,7 +49,7 @@ Product and CX teams receive thousands of app reviews every month with no system
 
 ---
 
-## AI-Assisted Classification & Validation
+## 🤖 AI-Assisted Classification & Validation
 
 | Step | Detail |
 |---|---|
@@ -101,8 +101,8 @@ review-to-roadmap/
 ├── README.md
 ├── review_to_roadmap_analysis.ipynb
 ├── data/
-│   ├── zomato.csv
-│   └── swiggy.csv
+│   ├── zomato_scoped.csv   # last 18 months, as used in the analysis
+│   └── swiggy_scoped.csv   # last 18 months, as used in the analysis
 ├── outputs/
 │   ├── reviews_tagged.csv
 │   ├── priority_matrix_zomato.csv
@@ -131,7 +131,7 @@ review-to-roadmap/
 - Python 3.9+ with Pandas, NumPy, Matplotlib, Jupyter
 
 ### Step 1 — Data
-Download `zomato.csv` and `swiggy.csv` from the Kaggle dataset linked below into `data/`
+`data/` contains the dataset already scoped to the most recent 18 months (Jan 2022–Jul 2023), matching what the notebook analyzes. To start from the full raw history instead, download the original dataset from Kaggle (linked below) and apply the scoping step shown in the notebook's Section 3.
 
 ### Step 2 — Run the Notebook
 Open `review_to_roadmap_analysis.ipynb` and run cells sequentially — covers cleaning, EDA, classification methodology, priority scoring, and insights
